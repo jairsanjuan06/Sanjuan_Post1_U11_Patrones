@@ -1,4 +1,4 @@
-# jairs-post1-u11
+# Sanjuan_Post1_U11
 
 Proyecto de laboratorio para la Unidad 11: Refactorizacion Avanzada y Clean Code Profundo.
 
@@ -48,12 +48,7 @@ Comando ejecutado:
 mvn test
 ```
 
-Resultado local:
 
-```text
-BUILD SUCCESS
-Tests run: 3, Failures: 0, Errors: 0
-```
 
 ## Ejecucion de SonarQube
 
@@ -80,13 +75,10 @@ mvn verify -Pcoverage sonar:sonar \
   -Dsonar.token=TU_TOKEN \
   -Dsonar.projectKey=refactoring-u11
 ```
+![alt text](capturas/Dashboard-antes.png)
 
-Las capturas deben guardarse en:
+![alt text](capturas/Dashboard-despues.png)
 
-```text
-capturas/sonarqube-antes.png
-capturas/sonarqube-despues.png
-```
 
 ## Estructura
 
